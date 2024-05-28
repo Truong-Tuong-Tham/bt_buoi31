@@ -1,0 +1,31 @@
+.overlay-container {
+   margin-left: 380px;
+    position: relative;
+    display: inline-block;
+  }
+  .overlay-container img:first-child {
+    display: block;
+    width: 100%;
+  }
+  .overlay-container img:last-child {
+    position: absolute;
+    top: 150px; 
+    left: 110px; 
+    width: 255px; 
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .button-container button {
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    margin: 5px; /* Điều chỉnh margin giữa các nút button */
+  }
+  
+  .button-container button img {
+    width: 145px; /* Điều chỉnh kích thước của hình ảnh */
+    height: auto;
+  }
